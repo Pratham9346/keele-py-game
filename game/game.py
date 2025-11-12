@@ -150,7 +150,7 @@ class Game:
         elapsed = int(time.time() - self.start_time)
         status = f"Score: {self.score}   Time: {elapsed}s"
         if self.paused:
-            status += "   [PAUSED — press P]"
+            status += "   [PAUSED — Press G]"
         self.canvas.itemconfig(self.hud, text=status)
 
     # ----------------------- Spawning -----------------------
