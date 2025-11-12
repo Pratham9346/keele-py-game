@@ -159,8 +159,8 @@ class Game:
             return
         x = random.randint(ENEMY_SIZE, WIDTH - ENEMY_SIZE)
         y = -ENEMY_SIZE
-        vy = random.uniform(2.2, 4.5)
-        vx = random.uniform(-0.8, 0.8)
+        vy = random.uniform(2.2, 6.5)
+        vx = random.uniform(-0.8, 8.8)
         ent = Entity("enemy", x, y, vx, vy, ENEMY_SIZE)
         ent.canvas_id = self.canvas.create_oval(
             x - ENEMY_SIZE, y - ENEMY_SIZE, x + ENEMY_SIZE, y + ENEMY_SIZE,
