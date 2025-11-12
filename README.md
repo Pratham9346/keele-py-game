@@ -8,5 +8,5 @@ A tiny Tkinter arcade game:
 - Press R to restart after game over.
 
 ## Run
-```bash
+pip install -r requirements.txt
 python -m game.game
