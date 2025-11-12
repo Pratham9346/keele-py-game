@@ -100,7 +100,7 @@ class Game:
     def update_player(self):
         if not self.player:
             return
-        speed = 4
+        speed = 6
         dx = dy = 0
         if "Left" in self.keys or "a" in self.keys:
             dx -= speed
